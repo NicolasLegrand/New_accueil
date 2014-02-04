@@ -179,35 +179,35 @@ a {
 
 #bloc_prestations:hover .content h2 {
     -webkit-animation-name: deplacement;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count: 1;
     color: #f5931f;    
 }
 
 #bloc_produits:hover .content h2 {
     -webkit-animation-name: deplacement;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count: 1; 
     color: #f5931f;   
 }
 
 #bloc_partenaires:hover .content h2 {
     -webkit-animation-name: deplacement;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count: 1;
     color: #f5931f;    
 }
 
 #bloc_contact:hover .content h2 {
     -webkit-animation-name: deplacement;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count: 1;
     color: #f5931f;    
 }
 
 #bloc_webmail:hover .content h2 {
     -webkit-animation-name: deplacement;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count: 1; 
     color: #f5931f;   
 }
@@ -248,4 +248,181 @@ a {
 
 #bloc_accueil:hover {
     background-color: black;
+}
+
+#bloc_prestations:hover {
+    background-color: black;
+}
+
+#bloc_produits:hover {
+    background-color: black;
+}
+
+#bloc_partenaires:hover {
+    background-color: black;
+}
+
+#bloc_contact:hover {
+    background-color: black;
+}
+
+#bloc_webmail:hover {
+    background-color: black;
+}
+
+
+
+
+/************************************************************/
+/********************** DIAGONALE ***************************/
+/************************************************************/
+
+#bloc_accueil:hover .diagonale{
+    width:180px;
+    height:100px;
+    border-bottom: 4px solid #0088cf;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(50deg); /* Safari and Chrome */
+    position: relative;
+}
+
+#bloc_accueil:hover .diagonale:after {
+    width: 10px;
+    height: 150px;
+    border-right: 4px solid #f5931f;
+    padding-top: 52px;
+    margin-right: 30px;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    content: '';
+    position: absolute;
+}
+
+#bloc_prestations:hover .diagonale{
+    width:180px;
+    height:100px;
+    border-bottom: 4px solid #0088cf;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(50deg); /* Safari and Chrome */
+    position: relative;
+}
+
+#bloc_prestations:hover .diagonale:after {
+    width: 10px;
+    height: 150px;
+    border-right: 4px solid #f5931f;
+    padding-top: 52px;
+    margin-right: 30px;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    content: '';
+    position: absolute;
+}
+
+#bloc_produits:hover .diagonale{
+    width:180px;
+    height:100px;
+    border-bottom: 4px solid #0088cf;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(50deg); /* Safari and Chrome */
+    position: relative;
+}
+
+#bloc_produits:hover .diagonale:after {
+    width: 10px;
+    height: 150px;
+    border-right: 4px solid #f5931f;
+    padding-top: 52px;
+    margin-right: 30px;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    content: '';
+    position: absolute;
+}
+
+#bloc_partenaires:hover .diagonale{
+    width:180px;
+    height:100px;
+    border-bottom: 4px solid #0088cf;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(50deg); /* Safari and Chrome */
+    position: relative;
+}
+
+#bloc_partenaires:hover .diagonale:after {
+    width: 10px;
+    height: 150px;
+    border-right: 4px solid #f5931f;
+    padding-top: 52px;
+    margin-right: 30px;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    content: '';
+    position: absolute;
+}
+
+#bloc_contact:hover .diagonale{
+    width:180px;
+    height:100px;
+    border-bottom: 4px solid #0088cf;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(50deg); /* Safari and Chrome */
+    position: relative;
+}
+
+#bloc_contact:hover .diagonale:after {
+    width: 10px;
+    height: 150px;
+    border-right: 4px solid #f5931f;
+    padding-top: 52px;
+    margin-right: 30px;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    content: '';
+    position: absolute;
+}
+
+#bloc_webmail:hover .diagonale{
+    width:180px;
+    height:100px;
+    border-bottom: 4px solid #0088cf;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(50deg); /* Safari and Chrome */
+    position: relative;
+}
+
+#bloc_webmail:hover .diagonale:after {
+    width: 10px;
+    height: 150px;
+    border-right: 4px solid #f5931f;
+    padding-top: 52px;
+    margin-right: 30px;
+    /* Rotate div */
+    transform:rotate(40deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    content: '';
+    position: absolute;
 }
